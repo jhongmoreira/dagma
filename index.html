@@ -9,8 +9,7 @@
   <!-- Inicio do corpo do site -->
   <body>
     <div class="container">
-    <header>
-      
+    <header>      
       <div class="topo-info">
         <ul>
           <li>dagma.joias@email.com</li>
@@ -18,13 +17,14 @@
           <li>Dagma Jóias | São Gotardo, MG</li>
         </ul>
       </div>
-
       <div class="logotipo">
         <img src="img/logo.svg" alt="Logotipo da empresa Dagma Jóias">
       </div>
-
-      <nav class="menu">
-        <ul>
+      <nav id="menu" class="menu">
+        <button aria-label="Abri Menu" id="btn-mobile" aria-expanded="false" aria-haspopup="true" aria-controls="menu">Menu
+          <span id="hamburguer"></span>
+        </button>
+        <ul id="lista-menu" role="menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">Contato</a></li>
           <li><a href="#">Masculino</a></li>
@@ -69,5 +69,6 @@
       </ol>
     </footer>
   </div>
+  <script src="js/mobile.js"></script>
   </body>
 </html>
