@@ -99,16 +99,39 @@ h1{
 }
 
 .categorias ul{
+  width: 100%;
   text-align: center;
+  gap: .5em;
+  text-align: center;
+}
+
+#lista-categorias span{
+  box-sizing: border-box;
+  display: block;
+  color:black;
+  font-size: 1.1em;
+  padding: 0.5rem;
+}
+
+#lista-categorias img{
+  border: 2px solid var(--cor-primaria);
 }
 
 .categorias li {
   display: inline-block;
-  width: 15%;
-  height: 150px;
+  width: 200px;
   margin-right: 0.5em;
-  background-color: #1A0F01;
-  color: white;
+  margin: .5em;
+}
+
+.categorias a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.categorias a:hover{
+  text-decoration: underline;
 }
 
 .destaques{
@@ -265,6 +288,18 @@ footer img{
   #menu.active #hamburguer::after{
     transform: rotate(-135deg);
     top: -7px;
+  }
+
+  #lista-categorias ul li{
+    display: block;
+    width: 100%;
+    background-color: none;
+    margin-top: 2rem;
+  }
+
+  .categorias li img{
+    box-sizing: border-box;
+    width: 70%;
   }
 
   
