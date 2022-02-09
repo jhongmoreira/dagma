@@ -139,16 +139,49 @@ h1{
 }
 
 .destaques ul{
+  width: 100%;
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .destaques ul > li{
-  display: inline-block;
-  width: 30%;
+  display: block;
+  width: 450px;
   height: 200px;
   margin: 0.5em;
-  background: black;
   color: white;
+  align-items: center;
+}
+
+.destaques span{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-self: center;
+}
+
+#lista-destaques .destaque-01{
+  background-image: url("../img/produtos/aneis.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#lista-destaques .destaque-02{
+  background-image: url("../img/produtos/brincos.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#lista-destaques .destaque-03{
+  background-image: url("../img/produtos/pulseiras.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 footer{
