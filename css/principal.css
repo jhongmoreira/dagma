@@ -175,15 +175,25 @@ h1{
   background-size: cover;
   background-position: center;
 }
-.destaque-01 span, .destaque-02 span, .destaque-03 span{
+
+.destaque-01 a, .destaque-02 a, .destaque-03 a{
   display: block;
   width: 100%;
   line-height: 200px;
   align-items: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6);
+  transition: 500ms;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
 }
 
+
+.destaques a:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
+}
 
 
 footer{
