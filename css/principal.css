@@ -397,6 +397,22 @@ footer img{
   .destaques ul li{
     width: 100%;
   }
+
+  .conteudo{
+    display: block;
+    width: 100%;
+  }
+
+  .conteudo #form-contato{
+    width: 100%;
+  }
+
+  .conteudo #contato-dados{
+    background-color: black;
+    width: 100%;
+    margin-top: 2em;
+    min-height: 200px;
+  }
   
 
 }
